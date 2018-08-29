@@ -15,4 +15,4 @@ and print the resultset using the DRL statement resultset, which uses the cursou
 
 --> There is a employee class in java where it has the model layer for the application that has the getter() and setter() for the
 application.
-
+We used Java 1.7
