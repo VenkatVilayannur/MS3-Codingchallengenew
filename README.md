@@ -1,18 +1,19 @@
+Project: com.MountainSoftware
+
+**RUN-TIME: java 1.7**
+
+
 INSTRUCTIONS TO RUN THE PROJECT AND APPROACH:
 
---> Change the path to load the CSV and add the connectivity for the database connection
+--> Change the path in line number:26 of the file(**MS3-Codingchallengenew/com.MountainSoftware/src/com/csvtosqlite/CSVLoader.java**) to load the CSV file and add the required jar for database connectivity.
 
---> I have created the application based on assuming the employee personal information rather than going by the column
-name. This is the scope which I personally identified as this seems to be structured and reliable too.
+--> This application was created based on assumption of the employee personal information rather than going by the column
+name, to make it structured and reliable.
 
---> The approach which I followed to develop the application is
-	a. I have made two different JAVA files
-		1) CSVLoader.java
-		2) Employee.java
---> CSV loader java file will depict the database connectivity, and the employee related information like the firstname,
-lastname, email, contact. Create the database connection using the connection object, pull the data, write the insert query
-and print the resultset using the DRL statement resultset, which uses the cursour with the while().
+CSVLoader.java:
+CSV loader java file will depict the database connectivity, and the employee related information like the firstname,
+lastname, email, contact.Employee.java will give the set
 
---> There is a employee class in java where it has the model layer for the application that has the getter() and setter() for the
-application.
-We used Java 1.7
+Employee.java:
+Employee.java will give the DAO layer for the application which have the setters() and getters() to set and get the values for the fields. 
+
